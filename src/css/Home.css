@@ -207,7 +207,7 @@ nav h3:hover {
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1520px) {
     .main {
         max-width: 70%;
     }
