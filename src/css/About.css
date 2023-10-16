@@ -1,0 +1,131 @@
+.about{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto 100px auto;
+}
+.about h2{
+    float: left;
+    font-family: "poppins";
+    font-size: 42px;
+    
+}
+.about .line{
+    margin: 9px 0;
+    width: 140px;
+    height: 9px;
+    background-color: black;
+    /* position: relative;
+    right: -17%; */
+    float: left;
+    
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me img{
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+
+}
+.about-right{
+    width: 58%;
+}
+.about-right h1{
+    font-size: 40px;
+    font-family: "raleway";
+    margin-bottom: 20px;
+}
+.about-right p{
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.cards{
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    width:300px ;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
+
+}
+ h6{
+    font-family: "poppins";
+    font-size: 16px;
+}
+.card p{
+    font-family: "inter";
+    font-size: 12px;
+}
+.line{
+    width: 1px;
+height: 45px;
+background: rgba(0, 0, 0, 0.25);
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.line2{
+    background: rgba(0, 0, 0, 0.25);
+    width: 2px;
+height: 180px;
+margin: 0 20px;
+}
+.study-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.study-text p{
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1250px) {
+.about-me{
+    flex-direction: column;
+}
+.about-me img{
+    margin-bottom: 20px;
+}
+.about-right{
+    width: auto;
+}
+}
+
+@media screen and (max-width: 700px) {
+.about h2{
+    font-size: 38px;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .about-me h1{
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,22 @@
+.contact h2{
+    padding-top: 150px;
+    text-align: center;
+    margin: auto;
+    font-family: "poppins";
+    font-size: 42px;
+    
+}
+.contact .underline{
+   margin: auto;
+   width: 140px;
+    height: 9px;
+    background-color: black;
+    
+}
+.social-media{
+    flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+width: 50%;
+margin: 100px auto;
+}
