@@ -26,9 +26,9 @@
     justify-content: space-between;
 }
 .about-me img{
-    border-radius: 100%;
-    width: 350px;
-    height: 350px;
+    /* border-radius: 100%; */
+    width: 300px;
+    height: 450px;
 
 }
 .about-right{

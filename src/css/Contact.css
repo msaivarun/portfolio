@@ -1,10 +1,17 @@
-.contact h2{
+.contact-h2{
     padding-top: 150px;
     text-align: center;
     margin: auto;
     font-family: "poppins";
     font-size: 42px;
     
+}
+.contact2{
+padding: -100px !important;
+text-align: center;
+    margin: auto;
+    font-family: "poppins";
+    font-size: 42px;
 }
 .contact .underline{
    margin: auto;
@@ -13,10 +20,18 @@
     background-color: black;
     
 }
+/* .contact .one{
+   margin: auto;
+   width: 380px;
+    height: 9px;
+    background-color: black;
+    
+} */
 .social-media{
     flex-wrap: wrap;
 display: flex;
 justify-content: space-around;
+align-items: center;
 width: 50%;
 margin: 100px auto;
 }

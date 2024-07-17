@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../css/Home.css';
-import photo from "../images/image2.jpg"
+import photo from "../images/Profile.png"
 const Home = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -29,12 +29,15 @@ const Home = () => {
       {/* home */}
       <img src={photo} width="90px" className='photo'/>
       <div>
-        <h1 className='name'>Adepu Loukya</h1>
-        <h1 className='text'>Front end Developer, UI designer</h1>
-        <p className='home-content'>I'm more than one in love for Front-End, who is also intrested in UI design, My experience with interface design turn me one extremely criterious with alignments, margins, colors and a lot other resorces in CSS. </p>
+        <h1 className='name'>Mada Sai Varun</h1>
+        <h1 className='text'>Software Development and Machine Learning Enthusiast</h1>
+        <p className='home-content'>I am primarily a software development and machine learning enthusiast skilled in data structures and algorithms (DSA). As a student, I am open to roles as a software development engineer (SDE).</p>
       </div>
-      <a href='https://drive.google.com/file/d/1H4C7YcUBFZxr8vwJ0lIw15A73oE0-wFj/view?usp=drive_link' target='_blank' className='resume'>Download Resume</a>
+      <a href='https://drive.google.com/file/d/17lRXAXk0-4IjvAUYzvgTKD9W93mo9xjZ/view' target='_blank' className='resume'>Download Resume</a>
       <img width="28" height="28" src="https://img.icons8.com/pastel-glyph/64/download--v2.png" alt="download--v2" className='download-img'/>
+      <br></br>
+      <br></br>
+      <br></br>
         </div>
 
         

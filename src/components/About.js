@@ -2,7 +2,7 @@ import "../css/About.css";
 import design from "../images/design.svg";
 import html from "../images/html.svg";
 import react from "../images/react.svg";
-import photo from "../images/image1.jpg";
+import photo from "../images/Profile2.png";
 const About = () => {
   return (
     <div>
@@ -15,28 +15,20 @@ const About = () => {
       <div className="main">
         {/* section1 */}
         <div className="about-me">
-          <img src={photo} />
+          <img src={photo}/>
           <div className="about-right">
-            <h1>Adepu Loukya</h1>
+            <h1>Mada Sai Varun</h1>
             <p>
-              Hola!👋 I'm Loukya, a Frontend Developer and Designer with a
-              strong affinity for React. My design background has instilled in
-              me a passion for creating visually striking, user-centered web
-              experiences.
+            Hola! 👋 I'm Sai Varun, a Software Development and Machine Learning Enthusiast with a strong affinity for problem-solving and innovation. My background in data structures and algorithms (DSA) has equipped me with the skills to tackle complex challenges and develop efficient solutions.
             </p>{" "}
             <br></br>
             <p>
               {" "}
-              React is my playground for turning design concepts into
-              interactive reality, and I'm proficient in HTML, CSS, JavaScript,
-              Tailwind, bootstrap.
+              Python and SKlearn are my playgrounds for exploring machine learning concepts and building intelligent systems. I'm proficient in C++, Java, and Python, and have experience in developing scalable software applications.
             </p>{" "}
             <br></br>
             <p>
-              I'm committed to clean code, responsive design, and optimal
-              performance. In a dynamic field, I'm dedicated to ongoing
-              learning. Let's collaborate to bring your ideas to life through
-              seamless web solutions.
+            I'm committed to clean code, algorithmic efficiency, and optimal performance. In a dynamic field, I'm dedicated to ongoing learning. As a student, I am open to roles as a Software Development Engineer (SDE). Let's collaborate to bring your ideas to life through cutting-edge technology and seamless solutions.
             </p>
           </div>
         </div>
@@ -46,8 +38,8 @@ const About = () => {
             <img src={design} />
             <div className="line"></div>
             <div className="card-content">
-              <h6>Interface & design</h6>
-              <p>Briefing, wireframe, UX, UI and branding.</p>
+              <h6>Software Development and ML</h6>
+              <p>Algorithms, coding, ML models.</p>
             </div>
           </div>
           <div className="card ">
@@ -73,12 +65,12 @@ const About = () => {
             <div className="line2"></div>
             <div className="study-text">
               <h6>I work and study about</h6>
-              <p>Coding React.js</p>
-              <p>Coding Javascript</p>
-              <p>Coding Tailwind</p>
+              <p>Studying DSA</p>
               <p>Studying Node.js basics</p>
               <p>Studying API RESTful</p>
-              <p>Studying User Experience</p>
+              <p>Coding React.js</p>
+              <p>Coding Javascript</p>
+              <p>Coding Bootstrap</p>
             </div>
           </div>
           <div className="box">
@@ -86,11 +78,11 @@ const About = () => {
             <div className="study-text">
               <h6>I've had experiences with</h6>
               <p>MySQL Database</p>
-              <p>Coding PHP</p>
-              <p>Coding Tailwind</p>
+              <p>Neural Networks</p>
+              <p>Coding Python</p>
               <p>Coding Java</p>
               <p>GIT, GitHub</p>
-              <p>Figma</p>
+              <p>MongoDB</p>
             </div>
           </div>
         </div>
